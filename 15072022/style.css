@@ -1,0 +1,99 @@
+*,body,html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1920px;
+    height: 1112px;
+    border: 1px solid green;
+}
+
+
+.header-div{
+    border: 2px solid red;
+    width: 1920px;
+    height: 70px;
+}
+
+
+.search-bar{
+    display: inline-block;
+    width: 50%;
+}
+
+/* designing search button */
+.search-btn{
+    border: none;
+    color: #DCE4EB;
+    background-color: white;
+    margin-left: 40px;
+}
+
+
+/* designing search area */
+#search-header{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #DCE4EB;
+    width: 91%;
+    border: 2px solid red;
+}
+
+/* designing user control section */
+
+.user-controls{
+    float: right;
+}
+.user-controls-div{
+    display: inline-block;
+    width: 49%;
+}
+
+
+.setting-bell-add{
+    display: inline-block;
+    margin-right: 34px;
+    
+}
+
+.user-control-btn{
+    border: none;
+    background-color: white;
+}
+
+.settings-btn{
+    margin-right: 50px;
+}
+.bell-btn{
+    margin-right: 50px;
+}
+
+/* user controls section */
+.user-section{
+    display: inline-block;
+    
+}
+.user{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.user-details{
+    display: inline-block;
+    margin: 0 18px;
+}
+.user-image{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.user-details .u-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
