@@ -12,16 +12,23 @@
 
 
 .header-div{
+    /* display: inline-block; */
     border: 2px solid red;
-    width: 1920px;
+    width: 1836px;
     height: 70px;
+    float: right;
 }
 
 
 .search-bar{
     display: inline-block;
     width: 50%;
+    float: left;
+    margin-top: 20px;
 }
+::placeholder {
+    color: #DCE4EB;
+  }
 
 /* designing search button */
 .search-btn{
@@ -29,6 +36,10 @@
     color: #DCE4EB;
     background-color: white;
     margin-left: 40px;
+}
+.search-btn img{
+    width: 14.15px;
+    height: 14.15px;
 }
 
 
@@ -39,14 +50,21 @@
     font-size: 13px;
     line-height: 19.5px;
     color: #DCE4EB;
-    width: 91%;
-    border: 2px solid red;
+    width: 89%;
+    /* border: 2px solid red; */
+    /* border: none; */
 }
 
 /* designing user control section */
 
 .user-controls{
     float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
 }
 .user-controls-div{
     display: inline-block;
@@ -97,3 +115,53 @@
     line-height: 24px;
 }
 
+
+/* controls icon div */
+
+.icons-controls{
+    display: inline-block;
+    width: 364px;
+    height: 100%;
+    border: 1px solid rgb(216, 202, 10);
+}
+.icons{
+    /* display: inline-block; */
+    border: 1px solid violet;
+    width: 70px;
+    /* height: 100%; */
+    float: left;
+}
+
+.icon-content{
+    display: inline-block;
+    width: 0px;
+    height: 100%;
+    border: 1px solid rgb(10, 40, 177);
+    /* float: right; */
+    transition: 2s;
+}
+
+
+/* company logo side bar items */
+.icon-company-logo{
+    border-bottom: 2px solid #DCE4EB;
+    height: 70.5px;
+    /* text-align: center; */
+    padding-top: 24px;
+    padding-left: 21px;
+}
+.icon-contacts{
+    border-bottom: 2px solid #DCE4EB;
+    height: 77px;
+    /* text-align: center; */
+    padding-top: 28.5px;
+    padding-left: 21px;
+    
+}
+.icon-contacts h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #305671;
+}

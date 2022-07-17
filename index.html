@@ -1,58 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header class="header-div">
-            <!-- searchbar and search icon -->
-            <div class="search-bar">
-                <button class="search-btn"><img src="./img/Group 1735.png" alt="search-icon"></button>
-                <input type="search" name="search" id="search-header" placeholder="Search">
-    
+      <div class="icons-controls" >
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/iconfinder_circle_dashboard_fuel_gauge_meter_icon_392518.png" alt="icon-one">
+
+          </button>
+
+        </div>
+
+      </div>
+        <div class="icon-content" id="icon-toggle">
+
+            <div class="icon-company-logo">
+                    <img src="./img/redbeltgym icon/Path 672.png" alt="#">
+                    <img src="./img/redbeltgym icon/Path 670.png" alt="#">
+                    <img src="./img/redbeltgym icon/Path 671.png" alt="#">
             </div>
-
-            <!-- user controls with user details -->
-            <div class="user-controls-div">
-                <div class="user-controls">
-                    <div class="setting-bell-add">
-            
-                        <button class="user-control-btn settings-btn"><img src="./img/Group 1736.png" alt="settings"></button>
-                        <button class="user-control-btn bell-btn"><img src="./img/Group 1774.png" alt="Bell"></button>
-                        <button class="user-control-btn add-btn"><img src="./img/Group 1773.png" alt="settings"></button>
-            
-                    </div>
-                    <img class="user-image" src="./img/image 5.png" alt="user image">
-                    <div class="user-section">
-                        <div class="user-details">
-                            <p class="user">User</p>
-                            <p class="u-name">Steave M.</p>
-                        </div>
-                        <button><img src="./img/iconfinder_icon-ios7-arrow-forward_211688 (2).png" alt="arrow-forword"></button>
-                        
-            
-                    </div>
-
-                </div>
-
+            <div class="icon-contacts">
+                    <h4>Contacts</h4>
             </div>
-            
-            
-        </header>
+            <div>
+                    <ul>
+                        <li>
+                            <div style="display: inline-block;">
+                                <div>
+                                    <span>My Contacts</span>
+                                    <span>653k</span>
 
+                                </div>
+                                <div>
+                                    <p>Create,Import & Manage Your contacts</p>
+                                </div>
+                            </div>
+                            <div style="display: inline-block;">
+                                <img src="./img/Group 121.png" alt="">
+                            </div>
+
+                        </li>
+                    </ul>
+            </div>
+        </div>    
+        
+
+      <header class="header-div" id="header-container">
+        <!-- searchbar and search icon -->
+        <div class="search-bar">
+          <button class="search-btn">
+            <img src="./img/Group 1735.png" alt="search-icon" />
+          </button>
+          <input
+            type="search"
+            name="search"
+            id="search-header"
+            placeholder="Search"
+          />
+        </div>
+
+        <!-- user controls with user details -->
+        <div class="user-controls-div">
+          <div class="user-controls">
+            <div class="setting-bell-add">
+              <button class="user-control-btn settings-btn">
+                <img src="./img/Group 1736.png" alt="settings" />
+              </button>
+              <button class="user-control-btn bell-btn">
+                <img src="./img/Group 1774.png" alt="Bell" />
+              </button>
+              <button class="user-control-btn add-btn">
+                <img src="./img/Group 1773.png" alt="settings" />
+              </button>
+            </div>
+            <img class="user-image" src="./img/image 5.png" alt="user image" />
+            <div class="user-section">
+              <div class="user-details">
+                <p class="user">User</p>
+                <p class="u-name">Steave M.</p>
+              </div>
+              <button>
+                <img
+                  src="./img/iconfinder_icon-ios7-arrow-forward_211688 (2).png"
+                  alt="arrow-forword"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
     </div>
 
-
-
-
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
