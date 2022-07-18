@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./jQuery/jquery-3.6.0.js"></script>
     
   </head>
   <body>
@@ -59,8 +61,8 @@
           </button>
 
         </div>
-        <div class="icons" style="background-color: #E9EFF5;padding: 25px 0px;">
-          <button onclick = "openSidebar()">
+        <div class="icons" id="contact" style="background-color: #E9EFF5;padding: 25px 0px;">
+          <button  onclick = "openSidebar()">
             <img src="./img/image-icons-controls/Group 129.png" alt="icon-one">
 
           </button>
@@ -83,15 +85,15 @@
       </div>
       <div class="icon-content" id="icon-toggle">
 
-            <div class="icon-company-logo">
+            <div class="icon-company-logo hide-content">
                     <img src="./img/redbeltgym icon/Path 672.png" alt="#">
                     <img src="./img/redbeltgym icon/Path 670.png" alt="#">
                     <img src="./img/redbeltgym icon/Path 671.png" alt="#">
             </div>
-            <div class="contacts-tab">
+            <div class="contacts-tab hide-content">
                     <h4>Contacts</h4>
             </div>
-            <div class="contact-info-wrapper">
+            <div class="contact-info-wrapper hide-content">
               <span class="dot"></span>
               <div style="display: inline-block; width: 82%;padding: 0px 9px;">
                   <div class="contact-info">
@@ -197,7 +199,6 @@
     </div>
 
     <script src="./index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="./jQuery/jquery-3.6.0.js"></script>
+    
   </body>
 </html>
