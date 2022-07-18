@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <div class="container">
@@ -23,87 +24,180 @@
           </button>
 
         </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/iconfinder_General_Office_26_3592822.png" alt="icon-one">
 
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/Path 127.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/iconfinder_Copy_728927.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/Group 156.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/Outline.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons" style="background-color: #E9EFF5;padding: 25px 0px;">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/Group 129.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/Group 5.png" alt="icon-one">
+
+          </button>
+
+        </div>
+        <div class="icons">
+          <button onclick = "openSidebar()">
+            <img src="./img/image-icons-controls/g2129.png" alt="icon-one">
+
+          </button>
+
+        </div>
       </div>
-        <div class="icon-content" id="icon-toggle">
+      <div class="icon-content" id="icon-toggle">
 
             <div class="icon-company-logo">
                     <img src="./img/redbeltgym icon/Path 672.png" alt="#">
                     <img src="./img/redbeltgym icon/Path 670.png" alt="#">
                     <img src="./img/redbeltgym icon/Path 671.png" alt="#">
             </div>
-            <div class="icon-contacts">
+            <div class="contacts-tab">
                     <h4>Contacts</h4>
             </div>
-            <div>
-                    <ul>
-                        <li>
-                            <div style="display: inline-block;">
-                                <div>
-                                    <span>My Contacts</span>
-                                    <span>653k</span>
+            <div class="contact-info-wrapper">
+              <span class="dot"></span>
+              <div style="display: inline-block; width: 82%;padding: 0px 9px;">
+                  <div class="contact-info">
+                      <span class="my-contact">My Contacts</span>
+                      <span class="total-contacts">653k</span>
 
-                                </div>
-                                <div>
-                                    <p>Create,Import & Manage Your contacts</p>
-                                </div>
-                            </div>
-                            <div style="display: inline-block;">
-                                <img src="./img/Group 121.png" alt="">
-                            </div>
-
-                        </li>
-                    </ul>
-            </div>
-        </div>    
+                  </div>
+                  <div class="contact-controls">
+                      <p>Create,Import & Manage Your contacts</p>
+                  </div>
+              </div>
+              <div style="float: right;padding: 8px 21px 0px 0px;">
+                <img src="./img/Group 121.png" alt="">
+              </div>
+            </div>     
+      </div>    
         
 
       <header class="header-div" id="header-container">
         <!-- searchbar and search icon -->
-        <div class="search-bar">
-          <button class="search-btn">
-            <img src="./img/Group 1735.png" alt="search-icon" />
-          </button>
-          <input
-            type="search"
-            name="search"
-            id="search-header"
-            placeholder="Search"
-          />
-        </div>
-
-        <!-- user controls with user details -->
-        <div class="user-controls-div">
-          <div class="user-controls">
-            <div class="setting-bell-add">
-              <button class="user-control-btn settings-btn">
-                <img src="./img/Group 1736.png" alt="settings" />
-              </button>
-              <button class="user-control-btn bell-btn">
-                <img src="./img/Group 1774.png" alt="Bell" />
-              </button>
-              <button class="user-control-btn add-btn">
-                <img src="./img/Group 1773.png" alt="settings" />
-              </button>
-            </div>
-            <img class="user-image" src="./img/image 5.png" alt="user image" />
-            <div class="user-section">
-              <div class="user-details">
-                <p class="user">User</p>
-                <p class="u-name">Steave M.</p>
+        <div style="border: 1px solid green;">
+          <div class="search-bar">
+            <button class="search-btn">
+              <img src="./img/Group 1735.png" alt="search-icon" />
+            </button>
+            <input
+              type="search"
+              name="search"
+              id="search-header"
+              placeholder="Search"
+            />
+          </div>
+  
+          <!-- user controls with user details -->
+          <div class="user-controls-div">
+            <div class="user-controls">
+              <div class="setting-bell-add">
+                <button class="user-control-btn settings-btn">
+                  <img src="./img/Group 1736.png" alt="settings" />
+                </button>
+                <button class="user-control-btn bell-btn">
+                  <img src="./img/Group 1774.png" alt="Bell" />
+                </button>
+                <button class="user-control-btn add-btn">
+                  <img src="./img/Group 1773.png" alt="settings" />
+                </button>
               </div>
-              <button>
-                <img
-                  src="./img/iconfinder_icon-ios7-arrow-forward_211688 (2).png"
-                  alt="arrow-forword"
-                />
-              </button>
+              <img class="user-image" src="./img/image 5.png" alt="user image" />
+              <div class="user-section">
+                <div class="user-details">
+                  <p class="user">User</p>
+                  <p class="u-name">Steave M.</p>
+                </div>
+                <button>
+                  <img
+                    src="./img/iconfinder_icon-ios7-arrow-forward_211688 (2).png"
+                    alt="arrow-forword"
+                  />
+                </button>
+              </div>
             </div>
           </div>
+
+        </div>
+        <div class="main-content">
+          <div class="path">
+            Lorem ipsum dolor sit amet.
+          </div>
+          <div>
+            <div class="list-search-create-wrapper">
+              <div class="contact-list">
+                <h4>Contact list (653245)</h4>
+              </div>
+              <div class="serach-create">
+                <input type="search" name="search-2nd" id="search-2nd" placeholder="Search" >
+                <span class="filter"> 
+                  <button>
+                    Filter<img src="./img/Layer 2.png" alt="">
+                  </button>
+                </span>
+                <span class="create">
+                  <button>
+                    +    Create
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div style="margin-top: 41px;">
+              <div class="import-export">
+                <span class="import"><img src="./img/iconfinder_3325114_download_icon.png" alt="import"> Import Contacts</span>
+                <span class="export"><img src="./img/iconfinder_3325114_download_ico.png" alt="Export"> Export contacts</span>
+              </div>
+            </div>
+            
+          </div>
+          <div class="contact-controls">
+            <p>Create,Import & Manage Your contacts</p>
+        </div>
         </div>
       </header>
     </div>
 
     <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./jQuery/jquery-3.6.0.js"></script>
   </body>
 </html>

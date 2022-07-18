@@ -14,9 +14,10 @@
 .header-div{
     /* display: inline-block; */
     border: 2px solid red;
-    width: 1836px;
-    height: 70px;
+    width: 1561px;
+    /* height: 70px; */
     float: right;
+    transition: 1s;
 }
 
 
@@ -69,6 +70,7 @@
 .user-controls-div{
     display: inline-block;
     width: 49%;
+    padding-right: 25px;
 }
 
 
@@ -114,31 +116,51 @@
     font-size: 16px;
     line-height: 24px;
 }
+.user-section button{
+    border: none;
+    background-color: #FFFFFF;
+}
+.user-section button img{
+    width: 9px;
+    height: 6px;
+    margin-bottom: 10px;
+}
 
 
 /* controls icon div */
 
 .icons-controls{
-    display: inline-block;
-    width: 364px;
+    /* display: inline-block; */
+    width: 70px;
     height: 100%;
     border: 1px solid rgb(216, 202, 10);
+    float: left;
+    margin-top: 96.22px;
 }
 .icons{
     /* display: inline-block; */
-    border: 1px solid violet;
+    text-align: center;
+    /* border: 1px solid violet; */
     width: 70px;
     /* height: 100%; */
     float: left;
+    margin-bottom: 60px;
+}
+.icons button{
+    border: none;
+    background-color: #FFFFFF;
+    color: #305671;
+    height: 28px;
 }
 
 .icon-content{
     display: inline-block;
-    width: 0px;
+    width: 287px;
     height: 100%;
-    border: 1px solid rgb(10, 40, 177);
+    /* border: 1px solid rgb(10, 40, 177); */
     /* float: right; */
     transition: 2s;
+    background-color: #E9EFF5;
 }
 
 
@@ -150,7 +172,7 @@
     padding-top: 24px;
     padding-left: 21px;
 }
-.icon-contacts{
+.contacts-tab{
     border-bottom: 2px solid #DCE4EB;
     height: 77px;
     /* text-align: center; */
@@ -158,10 +180,152 @@
     padding-left: 21px;
     
 }
+.my-contact{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    color: #305671;
+}
 .icon-contacts h4{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
     color: #305671;
+}
+.contact-info-wrapper{
+    margin-left: 21px;
+    margin-top: 12.5px;
+}
+.total-contacts{
+    display: inline-block;
+    width: 44px;
+    height: 20px;
+    border: .5px solid #3EA6B4;
+    background-color: #3EA6B4;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 2px;
+    margin-left:10px;
+}
+.dot{
+    width: 5px; 
+    /* display: inline-block; */
+    /* height: 5px; */
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.contact-controls p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9BAEBC;
+}
+
+
+.contact-list{
+    float: left;
+}
+.serach-create{
+    float: right;
+}
+.contact-list h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.serach-create input{
+    width: 423px;
+    height: 40px;
+    border: 1px solid #C7DAEB;
+    border-radius: 5px;
+    padding-left: 13.5px;
+}
+.filter button{
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    border:1px solid #C7DAEB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #9BAEBC;
+    /* padding-top: 7px; */
+    padding-left: 13px;
+    margin-left: 21px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.filter button img{
+    padding-left: 11px;
+}
+/* .filter span{
+    padding-left: 13.5px;
+    padding-right: 11.7px;
+} */
+.create button{
+    display: inline-block;
+    width: 115px;
+    height: 40px;
+    background: linear-gradient(90deg, #ED707A 0%, #F1A768 100%);
+    margin: 0px 51px 0px 20.5px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    /* padding-top: 7px; */
+}
+.main-content{
+    background-color: #F6F8FA;
+    padding-left: 40px;
+}
+.import-export{
+    float: right;
+    margin-top: 40.5px;
+    margin-right: 51px;
+}
+.import{
+    background-color: #305671;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.import img{
+    padding: 4px 4px 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+.export{
+    background-color: #FFFFFF;
+    color: #9BAEBC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    border: 1px solid #9BAEBC;
+    border-radius: 5px;
+}  
+.export img{
+    padding: 4px 4px 0px 0px;
+    width: 18px;
+    height: 18px;
 }
