@@ -17,10 +17,12 @@ button{
 .header-div{
     /* display: inline-block; */
     border: 2px solid red;
-    width: 1848px;
+    width: 1847px;
     /* height: 70px; */
     float: right;
-    transition: 1s;
+    transition: .3s;
+    
+    
 }
 
 
@@ -390,3 +392,133 @@ ul.breadcrumb {
   
   /* Add a grey background color on mouse-over */
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* inner curve of buttons */
+#contact b:nth-child(1){
+    position: absolute;
+    background-color: #E9EFF5;
+    width: 100%;
+    top: -20px;
+    height: 20px;
+    right: 1px;
+}
+#contact b:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 7px;
+    background: white;
+
+}
+#contact b:nth-child(2){
+    position: absolute;
+    background-color: #E9EFF5;
+    width: 100%;
+    top: 85px;
+    height: 20px;
+    right: 1px;
+}
+#contact b:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 7px;
+    background: white;
+
+}
+
+
+/* Designing Contact Table */
+.table-header{
+    /* margin-left: 69px; */
+    /* display: inline-block; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.contact-table{
+    border-collapse: collapse;
+    width: 97%;
+    margin-top: 86px;
+
+}
+
+.contact-row{
+    background-color: #FFFFFF;
+    /* padding: 20px 0px; */
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #305671;
+}
+
+.t-coulmn{
+    padding: 20px 0px;
+}
+.t-radio{
+    padding-left: 32px;
+}
+.contact-tags{
+    background-color: #6AAAD9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16.5px;
+    width: 103px;
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    padding: 4px 13px 4px 4px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 17px;
+    /* border-bottom-left-radius: 25px; */
+    /* border-top-left-radius: 25px; */
+}
+.contact-tags::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 98%;
+    top: 0;
+    border: 12px solid transparent;
+    border-right: 13px solid #6AAAD9;
+}
+.more-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #305671;
+    border: 1px solid #9BAEBC;
+    background-color: #FFFFFF;
+}
+.contact-img img{
+    float: left;
+    margin-top: 5px;
+}
+.contact-img span{
+    display: inline-block;
+    margin: 20px 15px;
+
+}
+.more-options{
+    border: none;
+    margin: 0px 0px 0px 36px;
+}
+table {
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+  }

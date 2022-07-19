@@ -8,8 +8,8 @@
 $(document).ready(function(){
     $("#contact").click( function(){
         $("#icon-toggle").css("width","287px");
-        $(".hide-content").show(800);
-        $("#header-container").css("width","1550px")
+        $(".header-div").css("width","1550px");
+        $(".hide-content").show();
         
     })
 }) ;
