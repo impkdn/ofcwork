@@ -8,7 +8,7 @@
 $(document).ready(function(){
     $("#contact").click( function(){
         $("#icon-toggle").css("width","287px");
-        $(".header-div").css("width","1550px");
+        $(".header-div").css("width","1560px");
         $(".hide-content").show();
         
     })
