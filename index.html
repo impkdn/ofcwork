@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./jQuery/jquery-3.6.0.js"></script>
     
@@ -205,40 +204,49 @@
           
           <tr >
             <th class="table-header t-radio">
-              <input type="radio" name="radio" id="radio">
+              <button class="add-new-btn"><img  src="./img/contactImg/Group 667.png" alt="#"></button>
+              <input type="checkbox" name="checkbox" id="checkbox">
             </th>
             <th class="table-header">
               Name
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
             <th class="table-header">
               Company Name
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
             <th class="table-header">
               Tags
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
             <th class="table-header">
               Phase
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
             <th class="table-header">
               Status
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
             <th class="table-header">
               Created On
+              <button class="sort-btn"><img src="./img/contactImg/Group 182.png" alt="sort-btn"></button>
             </th>
           </tr>
+          
           <tr class="contact-row">
             <td class="t-coulmn t-radio">
-              <input type="radio" name="radio-one" id="radio-one">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
             </td>
             <td class="contact-img">
-              <img src="./img/Ellipse 69.png" alt="#">
+              <img class="global-img" src="./img/contactImg/Group 2496.png" alt="">
+              <img src="./img/contactImg/Ellipse 69.png" alt="#">
               <span class="contact-name">Richard Nile</span>
             </td>
             <td>
               <span class="company-name">Tier5</span>
             </td>
             <td>
-              <span class="contact-tags">Demonastration</span>
+              <span class="contact-tags ">Demonastration</span>
               <span class="contact-tags">New Prospect</span>
               <button class="more-btn">6+</button>
             </td>
@@ -255,21 +263,24 @@
               </button>
             </td>
           </tr>
-          <tr class="contact-row">
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row ">
             <td class="t-coulmn t-radio">
-              <input type="radio" name="radio-one" id="radio-one">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
             </td>
             <td class="contact-img">
-              <img src="./img/Ellipse 69.png" alt="#">
-              <span class="contact-name">Richard Nile</span>
+              <img src="./img/contactImg/Group 440.png" alt="#">
+              <span class="contact-name">Milne Poshtula</span>
             </td>
             <td>
-              <span class="company-name">Tier5</span>
+              <span class="company-name">Milne Poshtula</span>
             </td>
             <td>
               <span class="contact-tags">Demonastration</span>
               <span class="contact-tags">New Prospect</span>
-              <button class="more-btn">6+</button>
+              
             </td>
             <td>
               <span class="contact-phase">New</span>
@@ -284,8 +295,259 @@
               </button>
             </td>
           </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row ">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Group 441.png" alt="#">
+              <span class="contact-name">Adam Smith</span>
+            </td>
+            <td>
+              <span class="company-name">Adam Smith</span>
+            </td>
+            <td>
+              <span class="no-tag-found">No tag found</span>
+              
+            </td>
+            <td>
+              <span class="contact-phase">Hot Lead</span>
+            </td>
+            <td>
+              <span class="contact-status">Lead</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Ellipse 72.png" alt="#">
+              <span class="contact-name">Claudia Bolton</span>
+            </td>
+            <td>
+              <span class="company-name">Claudia Bolton</span>
+            </td>
+            <td>
+              <span class="contact-tags">Demonastration</span>
+            </td>
+            <td>
+              <span class="contact-phase">Hot and Fresh Former <br>
+                Member</span>
+            </td>
+            <td>
+              <span class="contact-status">Lead</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Ellipse 73.png" alt="#">
+              <span class="contact-name">Paul Harrish</span>
+            </td>
+            <td>
+              <span class="company-name">Paul Harrish</span>
+            </td>
+            <td>
+              <span class="no-tag-found">No tag found</span>
+              
+            </td>
+            <td>
+              <span class="contact-phase">Hot and Fresh Lead</span>
+            </td>
+            <td>
+              <span class="contact-status">Lead</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+          
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Ellipse 70.png" alt="#">
+              <span class="contact-name">Mathew Warner</span>
+            </td>
+            <td>
+              <span class="company-name">Mathew Warner</span>
+            </td>
+            <td>
+              <span class="contact-tags">Demonastration</span>
+              
+            </td>
+            <td>
+              <span class="contact-phase">Expiring Soon</span>
+            </td>
+            <td>
+              <span class="contact-status">Gym Member</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Group 442.png" alt="#">
+              <span class="contact-name">Ben Carrey</span>
+            </td>
+            <td>
+              <span class="company-name">Ben Carrey</span>
+            </td>
+            <td>
+              <span class="contact-tags">Demonastration</span>
+              <span class="contact-tags">New Prospect</span>
+              <button class="more-btn">50+</button>
+            </td>
+            <td>
+              <span class="contact-phase">Paying</span>
+            </td>
+            <td>
+              <span class="contact-status">Gym Member</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Ellipse 68.png" alt="#">
+              <span class="contact-name">Alex Stokes</span>
+            </td>
+            <td>
+              <span class="company-name">Tier5Alex Stokes</span>
+            </td>
+            <td>
+              <span class="contact-tags">Demonastration</span>
+              
+            </td>
+            <td>
+              <span class="contact-phase">Paying</span>
+            </td>
+            <td>
+              <span class="contact-status">Gym Member</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg//Group 1754.png" alt="#">
+              <span class="contact-name">Kolin M.</span>
+            </td>
+            <td>
+              <span class="company-name">Kolin M.</span>
+            </td>
+            <td>
+              
+              <span class="contact-tags">New Prospect</span>
+              
+            </td>
+            <td>
+              <span class="contact-phase">Failing</span>
+            </td>
+            <td>
+              
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
+          <tr class="contact-row">
+            <td class="t-coulmn t-radio">
+              <input type="checkbox" name="checkbox-one" id="checkbox-one">
+            </td>
+            <td class="contact-img">
+              <img src="./img/contactImg/Ellipse 67.png" alt="#">
+              <span class="contact-name">Merry Jane</span>
+            </td>
+            <td>
+              <span class="company-name">Merry Jane</span>
+            </td>
+            <td>
+              
+            </td>
+            <td>
+              <span class="contact-phase">At Risk</span>
+            </td>
+            <td>
+              <span class="contact-status">Gym Member</span>
+            </td>
+            <td>
+              <span class="contact-created-on">22nd Feb 2021</span>
+              <button class="more-options">
+                <img src="./img/Group 132.png" alt="#">
+              </button>
+            </td>
+          </tr>
+
+          <tr class="spacing"></tr>
+
         </table>
-        </div>
         <div class="pagination">
           <!-- <a href="#">&laquo;</a> -->
           <a class="active" href="#">1</a>
@@ -293,9 +555,14 @@
           <a href="#">3</a>
           <a href="#">4</a>
           <a href="#">5</a>
-          <a href="#">6</a>
-          <a href="#">&raquo;</a>
+          <a href="#">...</a>
+          <a href="#"><img src="./img/contactImg/iconfinder_icon-ios7-arrow-forward_211688 (2).png" alt="#"></a>
         </div>
+        <div class="footer-rights">
+          <p>© 2021 Red Belt Gym, Inc. All rights reserved</p>
+        </div>
+        </div>
+        
       </header>
     </div>
 
