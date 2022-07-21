@@ -14,22 +14,27 @@ button {
 
 /* Main Comtainer */
 .container {
-    width: 1920px;
-    height: 1005px;
+    width: 100vw;
+    overflow: hidden;
+    /* height: 1005px; */
+
 
 }
 
 /* icon controls  div */
-
-.icons-controls {
+.left-navbar{
+    float: left;
+}
+.navbar {
 
     width: 70px;
     height: 100%;
     float: left;
-    margin-top: 96.22px;
+    padding-top: 96.22px;
+    padding-bottom: 96.22px;
 }
 
-.icons {
+.nav-items {
     /* display: inline-block; */
     text-align: center;
     /* border: 1px solid violet; */
@@ -40,7 +45,7 @@ button {
     position: relative;
 }
 
-.icons button {
+.nav-items button {
     border: none;
     background-color: #FFFFFF;
     color: #305671;
@@ -100,8 +105,8 @@ button {
 /* sliding middle div */
 .icon-content {
     display: inline-block;
-    width: 0px;
-    height: 1103px;
+    width: 294px;
+    height: 937px;
     /* border: 1px solid rgb(10, 40, 177); */
     /* float: right; */
     transition: .2s;
@@ -127,6 +132,13 @@ button {
     padding-top: 28.5px;
     padding-left: 21px;
 
+}
+.contacts-tab h4{
+    color: #305671;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .contact-info-wrapper {
@@ -163,15 +175,18 @@ button {
     float: right;
     padding: 8px 21px 0px 0px;
 }
- /* Left div with Table  */
-.left-div {
-    width: 1850px;
-    float: right;
+ /* right div with Table  */
+.right-div {
+    /* width: 1555px; */
+    /* float: right; */
+    overflow: hidden;
     transition: .2s;
-
+    /* display: inline-block; */
 
 }
-
+.header-area{
+    height: 70px;
+}
 
 .search-bar {
     width: 50%;
@@ -192,8 +207,8 @@ button {
 }
 
 .search-btn img {
-    width: 14.15px;
-    height: 14.15px;
+    width: 18px;
+    height: 18px;
 }
 
 
@@ -205,6 +220,7 @@ button {
     line-height: 19.5px;
     color: #DCE4EB;
     width: 89%;
+    outline: none;
     /* border: 2px solid red; */
     border: none;
 }
@@ -225,6 +241,8 @@ button {
     display: inline-block;
     width: 49%;
     padding-right: 25px;
+    margin-top: 9px;
+
 }
 
 
@@ -257,6 +275,7 @@ button {
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+    color: #305671;
 }
 
 .user-details {
@@ -274,6 +293,7 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    color: #305671;
 }
 
 .user-section button {
@@ -322,6 +342,12 @@ button {
     padding-top: 2px;
     margin-left: 10px;
 }
+.dots{
+    display: inline-block;
+    background-color: #e1771c;
+    border: 3px solid red;
+    border-radius: 50%;
+}
 
 
 
@@ -350,6 +376,7 @@ button {
     border: 1px solid #C7DAEB;
     border-radius: 5px;
     padding-left: 13.5px;
+    outline: none;
 }
 
 .filter button {
@@ -390,6 +417,10 @@ button {
 .main-content {
     background-color: #F6F8FA;
     padding-left: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 700px;
+    /* display: inline-block; */
 }
 
 .import-export {
@@ -434,7 +465,9 @@ button {
     width: 18px;
     height: 18px;
 }
-
+.breadcrumb-active-link{
+    color: #9BAEBC !important;
+}
 /* Style the list */
 ul.breadcrumb {
     padding: 10px 0px;
@@ -454,7 +487,12 @@ ul.breadcrumb li {
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color: #305671;
+    content: "\003E";
+}
+.breadcrumb-active-list:before{
+    padding: 8px;
+    color: #9BAEBC !important;
     content: "\003E";
 }
 
@@ -472,6 +510,9 @@ ul.breadcrumb li a:hover {
 
 
 /* Designing Contact Table */
+#contact{
+    background-color: #E9EFF5;
+}
 .table-header {
     /* margin-left: 69px; */
     /* display: inline-block; */
@@ -482,6 +523,7 @@ ul.breadcrumb li a:hover {
     text-align: left;
     padding-bottom: 30px;
     position: relative;
+    color: #305671;
 }
 
 .table-header .add-new-btn {
@@ -569,13 +611,20 @@ ul.breadcrumb li a:hover {
 
 .contact-img .global-img {
     float: left;
-    margin-left: -45px;
+    margin-left: -40px;
     margin-top: 11px;
 }
 
 .contact-img img {
     float: left;
     margin-top: 5px;
+}
+.table-row-font-style{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #305671;
 }
 
 .contact-img span {
@@ -587,6 +636,7 @@ ul.breadcrumb li a:hover {
 .more-options {
     border: none;
     margin: 0px 0px 0px 36px;
+    background-color: #FFFFFF;
 }
 
 
@@ -606,9 +656,16 @@ ul.breadcrumb li a:hover {
 /* Pagination links */
 .pagination {
     text-align: center;
-    margin-top: 45px;
-
+    padding-top: 45px;
+    /* position: fixed; */
+    padding-bottom: 10px;
+    /* bottom: 0px; */
+    /* left: 50%; */
+    /* height: 23px; */
+    background-color: #F6F8FA
 }
+
+
 
 .pagination a {
     color: black;
@@ -637,15 +694,15 @@ ul.breadcrumb li a:hover {
 
 
 /* footer */
-.footer-rights {
-    position: relative;
-    height: 95px;
+.footer-area {
+    text-align: end;
+    padding: 20px 50px 50px 0px;
+    background-color: #F6F8FA;
 }
 
-.footer-rights p {
-    position: absolute;
-    top: 0px;
-    right: 50px;
+.footer-area p {
+    /* position: absolute; */
+    
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 400;
