@@ -5,6 +5,10 @@ html {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+}
+html{
+    overflow: hidden; 
 }
 
 button {
@@ -16,7 +20,7 @@ button {
 .container {
     width: 100vw;
     overflow: hidden;
-    /* height: 1005px; */
+    
 
 
 }
@@ -423,6 +427,9 @@ button {
     height: 700px;
     /* display: inline-block; */
 }
+.import-export-wrapper{
+    margin-top: 41px;
+}
 
 .import-export {
     float: right;
@@ -529,7 +536,7 @@ ul.breadcrumb li a:hover {
 
 .table-header .add-new-btn {
     position: absolute;
-    top: 0px;
+    top: 23px;
     left: 0px;
     border: none;
     background-color: #F6F8FA
@@ -539,6 +546,9 @@ ul.breadcrumb li a:hover {
     border: none;
     background-color: #F6F8FA;
     margin-left: 15px;
+}
+.t-radio input{
+    opacity: .52;
 }
 
 .contact-table {
@@ -556,15 +566,16 @@ ul.breadcrumb li a:hover {
     font-weight: 400;
     line-height: 19.5px;
     color: #305671;
+    text-align: start;
 }
 
 .t-coulmn {
-    padding: 20px 0px;
+    padding: 23px 67.5px 32px 23px;
 }
 
 .t-radio {
-    padding-left: 33px;
-    padding-right: 19px;
+    /* padding-left: 33px;
+    padding-right: 19px; */
 }
 
 .contact-tags {
@@ -585,7 +596,7 @@ ul.breadcrumb li a:hover {
    
 }
 
-.contact-tags::after {
+.contact-tags::before {
     content: "";
     position: absolute;
     height: 0;
@@ -611,14 +622,14 @@ ul.breadcrumb li a:hover {
 }
 
 .contact-img .global-img {
-    float: left;
+    /* float: left;
     margin-left: -40px;
-    margin-top: 11px;
+    margin-top: 11px; */
 }
 
 .contact-img img {
     float: left;
-    margin-top: 5px;
+    margin-top: -10px;
 }
 .table-row-font-style{
     font-family: 'Poppins', sans-serif;
@@ -629,8 +640,10 @@ ul.breadcrumb li a:hover {
 }
 
 .contact-img span {
-    display: inline-block;
-    margin: 20px 15px;
+    /* display: inline-block; */
+    padding-top: 15px;
+    margin-top: 3px;
+    padding-left: 16px;
 
 }
 
@@ -638,6 +651,9 @@ ul.breadcrumb li a:hover {
     border: none;
     margin: 0px 0px 0px 36px;
     background-color: #FFFFFF;
+}
+.table-header input{
+    padding: 23px 67.5px 32px 23px;
 }
 
 
