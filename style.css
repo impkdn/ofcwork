@@ -13,6 +13,7 @@ html{
 
 button {
     cursor: pointer;
+    background-color: transparent;
 }
 
 
@@ -51,7 +52,7 @@ button {
 
 .nav-items button {
     border: none;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #305671;
     height: 28px;
 }
