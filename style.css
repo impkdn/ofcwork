@@ -15,6 +15,11 @@ button {
     cursor: pointer;
     background-color: transparent;
 }
+#global-img{
+    margin-left: -56px;
+    padding-right: 16px;
+    margin-top: -5px;
+}
 
 
 /* Main Comtainer */
@@ -549,7 +554,7 @@ ul.breadcrumb li a:hover {
     margin-left: 15px;
 }
 .t-radio input{
-    opacity: .52;
+    opacity: .4;
 }
 
 .contact-table {
