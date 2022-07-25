@@ -5,8 +5,8 @@ function openSidebar() {
     var headerContainer = document.getElementById("header-container");
     var activebtn = document.getElementById("contact");
     if (displayToggle.style.display === "none" && slideWidth.style.width === "0px" && headerContainer.style.width === "1850px") {
-        slideWidth.style.width = "287px";
-        headerContainer.style.width = "1563px";
+        slideWidth.style.width = "294px";
+        headerContainer.style.width = "1555px";
         displayToggle.style.display = "inline-block";
         activebtn.classList.add("active-button");
     } else {

@@ -7,9 +7,7 @@ html {
     font-family: 'Poppins', sans-serif;
     
 }
-html{
-    overflow: hidden; 
-}
+
 
 button {
     cursor: pointer;
